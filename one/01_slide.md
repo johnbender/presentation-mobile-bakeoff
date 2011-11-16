@@ -1,6 +1,8 @@
 !SLIDE
 # jQuery Mobile
 
+johnbender.github.com/presentation-mobile-bakeoff
+
 !SLIDE bullets mono-bullets
 ## me
 * @johnbender
@@ -13,7 +15,7 @@
 !SLIDE bullets mono-bullets
 * browsers
 * markup
-* polyfill
+* quirks
 * access
 
 !SLIDE
@@ -63,7 +65,7 @@ a grade browser support
 &lt;/<span class="function-name">html</span>&gt;
 </pre>
 
-<iframe src="samples/first.html">foo</iframe>
+<iframe src="samples/first.html"> </iframe>
 
 !SLIDE phone
 <pre class="xlarge">
@@ -97,4 +99,26 @@ a grade browser support
 &lt;/<span class="function-name">html</span>&gt;
 </pre>
 
-<iframe src="samples/without-js.html"></iframe>
+<iframe src="samples/without-js.html"> </iframe>
+
+!SLIDE
+# quirks
+
+!SLIDE
+### quirks ≈ bugs
+
+!SLIDE
+### orientationchange
+
+!SLIDE
+### (push|replace)State
+looking at you Chrome/iOS
+
+!SLIDE
+### vmouse
+<img src="droidincredible.jpg" style="height: 400px; float: left; margin-left: 225px; "></img>
+<img src="blackberry-bold.jpg" style="height: 380px; float: left; margin-top: 10px;"></img>
+
+!SLIDE
+# accessibility
+

@@ -136,6 +136,9 @@ jquerymobile.com/gbs/
 ### quirks ≈ bugs
 
 !SLIDE
+### but it's webkit
+
+!SLIDE
 ### orientationchange
 
 !SLIDE

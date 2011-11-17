@@ -7,8 +7,8 @@ body {
   height: 660px;
   width: 440px;
   position: absolute;
-  right: 40px;
-  top: 40px;
+  right: 33px;
+  top: 33px;
   border: 5px solid #D65600;
   border-radius: 3px;
 }
@@ -129,6 +129,11 @@ span.monospace {
   background: #D65600;
   color: white !important;
   outline: .20em solid #D65600;
+  font-size: 20px;
+}
+
+.content > pre b.small, .highlight b.small, b.small > .function-name, b.small > .string {
+  font-size: 1em;
 }
 
 .many-pre pre {

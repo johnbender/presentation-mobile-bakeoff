@@ -164,19 +164,5 @@ after replaceState
 ## wai-aria
 www.w3.org/TR/wai-aria/
 
-!SLIDE
-<pre class="xlarge">
-&lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"fieldcontain"</span>&gt;
-  &lt;<span class="function-name">label</span> <span class="variable-name">for</span>=<span class="string">"select-choice-1"</span> <span class="variable-name">class</span>=<span class="string">"select"</span>&gt;
-    Choose shipping method:
-  &lt;/<span class="function-name">label</span>&gt;
-  &lt;<span class="function-name">select</span> <span class="variable-name">name</span>=<span class="string">"select-choice-1"</span> <span class="variable-name">id</span>=<span class="string">"select-choice-1"</span>&gt;
-    &lt;<span class="function-name">option</span> <span class="variable-name">value</span>=<span class="string">"standard"</span>&gt;Standard: 7 day&lt;/<span class="function-name">option</span>&gt;
-    &lt;<span class="function-name">option</span> <span class="variable-name">value</span>=<span class="string">"rush"</span>&gt;Rush: 3 days&lt;/<span class="function-name">option</span>&gt;
-    &lt;<span class="function-name">option</span> <span class="variable-name">value</span>=<span class="string">"express"</span>&gt;Express: next day&lt;/<span class="function-name">option</span>&gt;
-    &lt;<span class="function-name">option</span> <span class="variable-name">value</span>=<span class="string">"overnight"</span>&gt;Overnight&lt;/<span class="function-name">option</span>&gt;
-  &lt;/<span class="function-name">select</span>&gt;
-&lt;/<span class="function-name">div</span>&gt;
-</pre>
-
-!SLIDE
+!SLIDE bullets mono-bullets
+## thanks!

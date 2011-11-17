@@ -24,6 +24,9 @@ jquerymobile.com/demos/1.0
 !SLIDE link highlight
 jquerymobile.com/demos/<b class="normal">1.0</b>
 
+!SLIDE link
+www.jqmgallery.com
+
 !SLIDE
 # browsers
 

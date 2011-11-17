@@ -18,6 +18,12 @@ johnbender.github.com/presentation-mobile-bakeoff
 * quirks
 * access
 
+!SLIDE link
+jquerymobile.com/demos/1.0
+
+!SLIDE link highlight
+jquerymobile.com/demos/<b>1.0</b>
+
 !SLIDE
 # browsers
 
@@ -25,7 +31,29 @@ johnbender.github.com/presentation-mobile-bakeoff
 <img src="mobile-browser-stats.png" style="margin-bottom: 500px"></img>
 
 !SLIDE
-a grade browser support
+## browser support
+jquerymobile.com/gbs/
+
+!SLIDE bullets grid
+<div style="float: left">
+<ul>
+  <li> Apple iOS 3.2-5.0 </li>
+  <li> Android 2.1-3.1 </li>
+  <li> Windows Phone 7-7.5 </li>
+  <li> Blackberry 6-7, QNX </li>
+  <li> Palm WebOS 1.4-3.0 </li>
+</ul>
+</div>
+
+<div style="float: left">
+<ul>
+  <li> Firebox Mobile </li>
+  <li> Opera Mobile 11.0 </li>
+  <li> Meego 1.2 </li>
+  <li> Chrome, Firefox </li>
+  <li> IE 7+, Opera 10+ </li>
+</ul>
+</div>
 
 !SLIDE
 # markup

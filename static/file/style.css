@@ -19,8 +19,17 @@ body {
   margin: 50px 0 0 50px;
 }
 
-.mono-bullets ul {
+.mono-bullets ul, .link p {
   font-size: 4em;
+}
+
+.bullets.grid ul {
+  font-size: 3em;
+  margin-left: 40px;
+}
+
+.bullets.grid li {
+  margin-top: 20px;
 }
 
 .content h1 {
@@ -116,7 +125,7 @@ span.monospace {
   font-size: 3.5em;
 }
 
-.content > pre b {
+.content > pre b, .highlight b {
   background: #D65600;
   color: white;
   outline: .20em solid #D65600;

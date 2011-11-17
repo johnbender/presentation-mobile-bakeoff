@@ -52,8 +52,8 @@ function loadSlides(load_slides, prefix) {
 	if (load_slides) {
 		$("#slides").load("slides", false, function(){
 			$("#slides img").batchImageLoad({
-			loadingCompleteCallback: initializePresentation(prefix)
-		})
+				loadingCompleteCallback: initializePresentation(prefix)
+			})
 		})
 	} else {
 	$("#slides img").batchImageLoad({
@@ -105,6 +105,9 @@ function centerSlide(slide) {
 	var height = slide_content.height();
 	var split = slide_content.find( "img" ).length > 0 ? 0.25 : 0.5;
 	var split = slide_content.find( "iframe" ).length > 0 ? 0.0 : split;
+	var split = slide_content.is(".grid") ? 0.25 : split;
+
+	console.log( split );
 	var mar_top = (split * parseFloat($(slide).height())) - (split * parseFloat(height));
 	if (mar_top < 0) {
 		mar_top = 0

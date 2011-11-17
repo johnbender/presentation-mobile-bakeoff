@@ -133,13 +133,8 @@ jquerymobile.com/gbs/
 # quirks
 
 !SLIDE
-### quirks ≈ bugs
-
-!SLIDE
-### but it's webkit
-
-!SLIDE
-### orientationchange
+## quirks ≈ bugs
+but it's webkit
 
 !SLIDE
 ## (push|replace)State
@@ -156,9 +151,14 @@ after replaceState
 ### Chrome/iOS
 
 !SLIDE
-### vmouse
-<img src="droidincredible.jpg" style="height: 400px; float: left; margin-left: 225px; "></img>
-<img src="blackberry-bold.jpg" style="height: 380px; float: left; margin-top: 10px;"></img>
+## vmouse
+
+!SLIDE
+### click event delay
+
+!SLIDE high-image
+<img src="droidincredible.jpg" style="height: 500px; float: left; margin-left: 155px; "></img>
+<img src="blackberry-bold.jpg" style="height: 480px; float: left; margin-top: 10px;"></img>
 
 !SLIDE
 # accessibility

@@ -106,6 +106,7 @@ function centerSlide(slide) {
 	var split = slide_content.find( "img" ).length > 0 ? 0.25 : 0.5;
 	var split = slide_content.find( "iframe" ).length > 0 ? 0.0 : split;
 	var split = slide_content.is(".grid") ? 0.25 : split;
+	var split = slide_content.is(".high-image") ? 0.15 : split;
 
 	console.log( split );
 	var mar_top = (split * parseFloat($(slide).height())) - (split * parseFloat(height));

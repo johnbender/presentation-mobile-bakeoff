@@ -22,7 +22,7 @@ johnbender.github.com/presentation-mobile-bakeoff
 jquerymobile.com/demos/1.0
 
 !SLIDE link highlight
-jquerymobile.com/demos/<b>1.0</b>
+jquerymobile.com/demos/<b class="normal">1.0</b>
 
 !SLIDE
 # browsers
@@ -252,9 +252,9 @@ jquerymobile.com/gbs/
 &lt;<span class="function-name">html</span>&gt;
 &lt;<span class="function-name">head</span>&gt;
   &lt;<span class="function-name">meta</span> <span class="variable-name">charset</span>=<span class="string">"utf-8"</span>&gt;
-  <b class="small">&lt;<span class="function-name">link</span> <span class="variable-name">rel</span>=<span class="string">"stylesheet"</span> <span class="variable-name">href</span>=<span class="string">"jquery.mobile.css"</span>/&gt;</b>
-  <b class="small">&lt;<span class="function-name">script</span> <span class="variable-name">src</span>=<span class="string">"jquery-1.6.4.min.js"</span>&gt;&lt;/<span class="function-name">script</span>&gt;</b>
-  <b class="small">&lt;<span class="function-name">script</span> <span class="variable-name">src</span>=<span class="string">"jquery.mobile.js"</span>&gt;&lt;/<span class="function-name">script</span>&gt;</b>
+  <b class="normal">&lt;<span class="function-name">link</span> <span class="variable-name">rel</span>=<span class="string">"stylesheet"</span> <span class="variable-name">href</span>=<span class="string">"jquery.mobile.css"</span>/&gt;</b>
+  <b class="normal">&lt;<span class="function-name">script</span> <span class="variable-name">src</span>=<span class="string">"jquery-1.6.4.min.js"</span>&gt;&lt;/<span class="function-name">script</span>&gt;</b>
+  <b class="normal">&lt;<span class="function-name">script</span> <span class="variable-name">src</span>=<span class="string">"jquery.mobile.js"</span>&gt;&lt;/<span class="function-name">script</span>&gt;</b>
 &lt;/<span class="function-name">head</span>&gt;
 &lt;<span class="function-name">body</span>&gt;
   &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"first"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;

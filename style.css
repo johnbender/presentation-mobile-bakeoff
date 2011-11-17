@@ -125,9 +125,9 @@ span.monospace {
   font-size: 3.5em;
 }
 
-.content > pre b, .highlight b {
+.content > pre b, .highlight b, b > .function-name, b > .string {
   background: #D65600;
-  color: white;
+  color: white !important;
   outline: .20em solid #D65600;
 }
 
